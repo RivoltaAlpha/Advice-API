@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(214, 9%, 16%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.advice-card{
+    max-width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid hsl(217, 19%, 24%);
+    padding: 50px;
+    border-radius: 15px;
+    background-color: hsl(218, 23%, 16%);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.advice-card:hover {
+    background-color: rgb(25, 25, 52);
+    transform: translateY(-10px);
+  }
+.advice-id {
+    color: #52ffa8;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.advice-text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #4e5d73;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #52ffa8;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3ddb98;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+}
+.attribution { font-size: 11px; text-align: center;
+margin-top: 200px; }
+.attribution a { color: hsl(212, 86%, 58%); }
